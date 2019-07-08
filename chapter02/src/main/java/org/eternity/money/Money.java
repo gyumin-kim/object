@@ -3,6 +3,7 @@ package org.eternity.money;
 import java.math.BigDecimal;
 import java.util.Objects;
 
+// 값이 '금액'과 관련돼 있다는 의미를 명시적으로 전달
 public class Money {
     public static final Money ZERO = Money.wons(0);
 

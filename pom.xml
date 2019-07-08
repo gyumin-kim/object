@@ -29,5 +29,6 @@
         <module>appendixA</module>
         <module>appendixB</module>
         <module>appendixC</module>
+        <module>codespitz</module>
     </modules>
 </project>

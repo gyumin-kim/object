@@ -10,6 +10,7 @@ public class Movie {
     private Money fee;
     private DiscountPolicy discountPolicy;
 
+    // 생성자 주입
     public Movie(String title, Duration runningTime, Money fee, DiscountPolicy discountPolicy) {
         this.title = title;
         this.runningTime = runningTime;

@@ -6,8 +6,8 @@ import java.time.LocalDateTime;
 
 public class Screening {
     private Movie movie;
-    private int sequence;
-    private LocalDateTime whenScreened;
+    private int sequence;               // 순번
+    private LocalDateTime whenScreened; // 상영 시작시간
 
     public Screening(Movie movie, int sequence, LocalDateTime whenScreened) {
         this.movie = movie;
